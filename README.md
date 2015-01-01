@@ -5,19 +5,13 @@ Command line DAQ for LeCroy X-Stream oscilloscopes
 
 Author: W. H. Bell, http://www.whbell.net/
 
-Purpose
--------
-
-General purpose program for acquiring scope traces from a LeCroy
-X-Stream oscilloscope.
-
 Description
 -----------
 
-The scope parameters are set from the values given in the
+The oscilloscope parameters are set from the values given in the
 control/settings.txt file.  The scope is then setup and readout for a
 given number of triggers.  The data taken from the scope are decoded
-and recorded in a Root TTree saved in a root file.
+and recorded in a Root TTree saved in a ROOT file.
 
 ------------------------------------------------------
 
