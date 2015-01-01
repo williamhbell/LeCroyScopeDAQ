@@ -25,7 +25,7 @@ cd ..
 ```
 
 By default, the code requires ROOT [ http://root.cern.ch/ ] to build.
-However, this dependency can be removed by removing the RootTreeOutput from the OBJECTS= list in the Makefile.
+However, this dependency can be removed by removing RootTreeOutput from the OBJECTS= list in the Makefile.
 
 Setup the scope parameters
 --------------------------
