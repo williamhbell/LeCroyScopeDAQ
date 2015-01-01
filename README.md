@@ -1,7 +1,7 @@
 LeCroyScopeDAQ
 ==============
 
-Command line DAQ for LeCroy X-Stream oscilloscopes
+Command line DAQ for LeCroy X-Stream oscilloscopes.
 
 Written by W. H. Bell [ http://www.whbell.net/ ]
 
