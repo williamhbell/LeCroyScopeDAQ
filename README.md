@@ -2,7 +2,8 @@ LeCroyScopeDAQ
 ==============
 
 Command line DAQ for LeCroy X-Stream oscilloscopes
-Author: W. H. Bell
+
+Author: W. H. Bell, http://www.whbell.net/
 
 Purpose
 -------
