@@ -27,6 +27,8 @@ cd ..
 By default, the code requires ROOT [ http://root.cern.ch/ ] to build.
 However, this dependency can be removed by removing RootTreeOutput from the OBJECTS= list in the Makefile.
 
+More details on the structure of the code are given in the src/README.txt file.
+
 Setup the scope parameters
 --------------------------
 
@@ -49,7 +51,7 @@ Running the code
 where [options] is optional and can be:
 * -h to print the possible options
 * -d to enable the debug mode, to print more information
-* -m <value> to set the readout mode, where <value> can be 0, 1, or 2.
+* -m <value> to set the run mode, where <value> can be 0, 1, or 2.
 * -n <number of events> to set the executable to read a fixed number of events
 * -o <string> to set the output file name prefix
 * -p <string> to override the default control/settings.txt parameters file name
