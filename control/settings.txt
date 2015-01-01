@@ -1,0 +1,60 @@
+# This file controls the behaviour of the LeCroyScopeDAQ
+#
+# The file should contain a parameter name followed by at least one 
+# space or tab and then the value for the parameter.  Anything 
+# following a # is ignored. 
+#
+
+#=================== Communication Settings =======================
+
+# TCP connection
+ip_address      	128.141.28.183
+tcp_timeout       	5 # Time in s
+
+#=================== Channel Settings =============================
+
+# Scope channel connections.  Off disables readout of channel.
+channel_1      		EBA12
+channel_2       	EBA11
+channel_3       	EBA13
+channel_4       	EBA14
+
+# Coupling.  One of {A1M*, D1M*, D50, GND}.
+coupling_ch1		D50 # 50 Ohms
+coupling_ch2		D50 # 50 Ohms
+coupling_ch3		D50 # 50 Ohms
+coupling_ch4		D50 # 50 Ohms
+
+# Offset
+offset_ch1		0.62 # Voltage in V
+offset_ch2		0.62 # Voltage in V
+offset_ch3		0.62 # Voltage in V
+offset_ch4		0.62 # Voltage in V
+
+# Voltage per division
+voltage_divisions_ch1   0.25 # Voltage in V
+voltage_divisions_ch2	0.25 # Voltage in V
+voltage_divisions_ch3   0.25 # Voltage in V
+voltage_divisions_ch4   0.25 # Voltage in V
+
+#=================== General Settings =============================
+
+time_base		20.0E-9 # Time in s
+sequence 		10 # Number of triggers to take in an acquisition
+events_per_file         5000
+
+#=================== Trigger Settings =============================
+
+# One of {C1, C2, C3, C4}
+trigger_source   	C1
+
+# One of {NEG, POS}
+trigger_slope		NEG
+
+trigger_level  		-0.40 # Trigger value in V
+
+# Refer to the X-Stream remote control manual for possible options.
+trigger_type		DROP
+
+
+
