@@ -30,7 +30,7 @@ However, this dependency can be removed by removing RootTreeOutput from the OBJE
 Setup the scope parameters
 --------------------------
 
-The scope settings are controlled by the text file
+The oscilloscope settings are controlled by the text file
 
 ```
 control/settings.txt
@@ -55,6 +55,6 @@ where [options] is optional and can be:
 * -p <string> to override the default control/settings.txt parameters file name
 
 Run modes:
-* 0 - read scope traces, decode them and write the data as a ROOT TTree.
-* 1 - read scope traces and write them in the binary data format
-* 2 - read the binary data format and write out a ROOT TTree.  In this mode the data is read from the input files, rather than from the scope.
+* 0 - read oscilloscope traces, decode them and write the data as a ROOT TTree.
+* 1 - read oscilloscope traces and write them in the binary data format
+* 2 - read the binary data format and write out a ROOT TTree.  In this mode the data is read from the input files, rather than from the oscilloscope.
